@@ -1,0 +1,20 @@
+{
+    "name": "al-one/aliyun-mns-php-sdk",
+    "description": "PHP SDK of MNS(Message Service) for composer",
+    "keywords": ["aliyun", "mns"],
+    "authors": [
+        {
+            "name": "Alibaba",
+            "email": "developer@aliyun.com",
+            "homepage": "https://www.aliyun.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "AliyunMNS/"
+        }
+    }
+}
